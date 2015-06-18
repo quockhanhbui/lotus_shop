@@ -1,2 +1,39 @@
 /db/lotus_shop_development
 /db/lotus_shop_test
+gnore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*.log
+/tmp
+data
+log
+
+# VIM files
+**/*.swp
+**/*.swo
+
+# VIM files
+**/*.swp
+**/*.swo
+
+# Ruby env files
+.ruby-gemset
+.ruby-version
+.rake_tasks
+
+Gemfile.lock
+
+# Ignore rubymine folder
+.idea/*
+
+# Ignore rvmrc file
+.rvmrc
+
+*_packaged.js
+*_packaged.css
+
